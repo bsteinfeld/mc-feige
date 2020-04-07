@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+  minecraft:
+    build: .
+    image: bsteinfeld/mc-feigh:1
+    ports:
+      - 25565:25565
